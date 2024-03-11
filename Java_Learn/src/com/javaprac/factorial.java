@@ -1,6 +1,8 @@
+package com.javaprac;
+
 public class factorial{
     public static void main(String[] args) {
-        int number = 5; // Change this number to calculate factorial for a different number
+        int number = 3; 
         long factorial = calculateFactorial(number);
         System.out.println("Factorial of " + number + " is: " + factorial);
     }
